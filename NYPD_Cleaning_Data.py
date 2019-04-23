@@ -7,7 +7,7 @@ import sys
 
 #Instializing App Name
 APP_NAME = "NYPD_Cleaning_Data"
-
+#Name of the app is NTPD_Cleaning_Data
 #Main function to clean the data
 def main(spark,file1):
     new_data=spark.read.csv(file1,header=True);
